@@ -77,44 +77,51 @@ const Main = styled(Section)`
   `)};
 `
 
-const Grants = () => (
+const Brief = () => (
   <Main>
     <div>
       <SectionTitle title="Grants program" />
       <h1 className="title">
-        Let's build the best tools for the future, together
+        Building the best tools for the decentralized future, together
       </h1>
       <img src={repos} alt="" />
       <div className="columns">
         <p className="item">
           The Aragon Nest program was created to support great teams in the
-          research and development of all-important tools for the Aragon and
-          Ethereum ecosystems
+          research and development of the all-important tools for the Aragon and
+          Ethereum ecosystems.
         </p>
         <p className="item">
           You can propose subjects for grants that we should award, or you can
-          apply for a grant from Nest to your project. The process is completely
-          transparent for the community
+          apply for a grant from Nest for your project. The process is completely
+          transparent for the community.
         </p>
       </div>
       <div className="cta">
         <Anchor
           mode="strong"
-          href="https://github.com/aragon/nest"
+          href="https://blog.aragon.one/introducing-aragon-nest-1aa8c91c0566"
           target="_blank"
         >
-          Check out proposals
+          Announcement Post
         </Anchor>
         <Anchor
           mode="outline"
+          href="https://wiki.aragon.one/nest/"
+          target="_blank"
+        >
+          Aragon Nest Wiki
+        </Anchor>
+        <Anchor
+          mode="strong"
           href="https://blog.aragon.one/launch-of-aragon-nest-8d42d1a37595"
           target="_blank"
         >
-          Read more
+          Launch Post
         </Anchor>
       </div>
     </div>
   </Main>
 )
 
-export default Grants
+export default Brief

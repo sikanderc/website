@@ -8,6 +8,7 @@ import { Header, PreFooter, Footer } from '@aragon/web'
 const menuItems = [
   ['/core', 'Core'],
   ['/os', 'aragonOS'],
+  ['/nest', 'Nest'],
   ['/network', 'Network'],
   ['/foundation', 'Foundation'],
   ['/about', 'About'],

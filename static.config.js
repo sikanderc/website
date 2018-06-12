@@ -36,6 +36,11 @@ export default {
       getData: () => ({ title: 'aragonOS' }),
     },
     {
+      path: '/nest',
+      component: 'src/pages/Nest',
+      getData: () => ({ title: 'Nest' }),
+    },
+    {
       path: '/network',
       component: 'src/pages/Network',
       getData: () => ({ title: 'Aragon Network' }),
